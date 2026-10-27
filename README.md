@@ -1,5 +1,7 @@
 # Karaoke Mic
 
+[![CI](https://github.com/thinhkhang97/karaoke-mic/actions/workflows/ci.yml/badge.svg)](https://github.com/thinhkhang97/karaoke-mic/actions/workflows/ci.yml)
+
 A tiny desktop mixer that plays your microphone through your speaker with a karaoke-bar echo. Open it, plug in the mic, sing.
 
 <p align="center">
@@ -126,7 +128,7 @@ The audio engine is already cross-platform: cpal uses WASAPI on Windows and ALSA
 - [ ] Back off retries when a device fails to open
 - [ ] Use the stronger channel for a stereo mic that carries the signal on one channel only
 
-Ideas and pull requests are welcome. Please open an issue first for anything big.
+Ideas and pull requests are welcome. Please open an issue first for anything big. Every pull request runs the frontend and Rust test suites in CI, and both must pass before merging into `main`.
 
 ## License
 
